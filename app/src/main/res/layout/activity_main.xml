@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/food_Type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="227dp"
+        android:fontFamily="@font/muli_bold"
+        android:text="Chinese"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="192dp"
+        android:layout_height="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/menu_img" />
+
+    <EditText
+        android:id="@+id/add_new_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="222dp"
+        android:hint="Add new food"
+        android:textSize="25sp"/>
+
+
+    <Button
+        android:id="@+id/add_food_btn"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="Add Food"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/decide_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:text="Decide"
+        android:textSize="24sp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
